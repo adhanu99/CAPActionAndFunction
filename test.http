@@ -1,0 +1,19 @@
+GET http://localhost:4004/odata/v4/capaction-and-function/Project
+
+###
+POST http://localhost:4004/odata/v4/capaction-and-function/Project
+Content-Type: application/json
+
+
+{
+    "ID" : 1 
+}
+
+###
+POST http://localhost:4004/odata/v4/capaction-and-function/approveProject
+Content-Type: application/json
+
+
+{
+    "ID" : 1 
+}

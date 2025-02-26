@@ -1,0 +1,4 @@
+fromStatus_code,toStatus_code
+PEND,APPR
+PEND,RJCT
+RJCT,DELT
